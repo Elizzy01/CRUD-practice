@@ -1,0 +1,31 @@
+{
+  "name": "crud-practice",
+  "version": "1.0.0",
+  "description": "Daily practice of Nodejs and Mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --timeout 10000"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elizzy01/CRUD-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elizzy01/CRUD-practice/issues"
+  },
+  "homepage": "https://github.com/Elizzy01/CRUD-practice#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0"
+  }
+}
